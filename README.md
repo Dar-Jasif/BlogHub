@@ -1,16 +1,58 @@
-# React + Vite
+# BlogHub – React + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal setup for building React applications using **Vite** with fast HMR (Hot Module Replacement) and ESLint configured.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+
+Check out the live project here:  
+[https://Dar-Jasif.github.io/BlogHub/](https://Dar-Jasif.github.io/BlogHub/)
+
+---
+
+## Features
+
+- ✅ Fast development with **Vite**  
+- ✅ React support with optional **Fast Refresh**  
+- ✅ ESLint configured for better code quality  
+- ✅ Easy to expand with TypeScript and advanced lint rules  
+
+---
+
+## Plugins Available
+
+Two official plugins are supported:
+
+- **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react)**  
+  Uses Babel (or oxc with rollup-vite) for Fast Refresh  
+
+- **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)**  
+  Uses **SWC** for Fast Refresh (faster compilation than Babel)  
+
+---
 
 ## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The React Compiler is **not enabled** in this template due to its impact on dev & build performance.  
+To enable it, check the [React Compiler documentation](https://react.dev/learn/react-compiler/installation).  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ESLint Configuration
+
+For production apps, we recommend:
+
+- Using **TypeScript**  
+- Enabling type-aware lint rules with [`typescript-eslint`](https://typescript-eslint.io)  
+
+See the [React + TypeScript Vite template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for more details.  
+
+---
+
+## Getting Started
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/Dar-Jasif/BlogHub.git
+cd BlogHub
